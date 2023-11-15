@@ -7,7 +7,7 @@ if (!process.env.DATABASE_URL) {
 }
 
 export default {
-	schema: './db/schema/*',
+	schema: './db/schema/schema.ts',
 	out: './db/migrations',
 	driver: 'pg',
 	verbose: true,
